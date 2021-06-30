@@ -26,6 +26,6 @@ while True:
     print('.', end='')
 
     if counter % 100 == 0:
-        pd.DataFrame(quotes).to_csv('quotes.csv', header=False, index=False, mode='a')
+        pd.DataFrame(quotes).to_csv('banibd.csv', header=False, index=False, mode='a')
         quotes = []
         print()
